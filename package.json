@@ -1,0 +1,31 @@
+{
+  "name": "aeronesto-timestamp-ms",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp API Basejump: Timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+hhttps://github.com/aeronesto/timestamp_microservice.git"
+  },
+  "keywords": [
+    "API",
+    "aeronesto",
+    "TimeStamp",
+    "NODE"
+  ],
+  "author": "Ernesto (aeronesto) Jimenez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aeronesto/timestamp_microservice/issues"
+  },
+  "homepage": "https://github.com/aeronesto/timestamp_microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "moment": "^2.10.6"
+  }
+}

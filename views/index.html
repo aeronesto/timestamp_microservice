@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Timestamp microservice</title>
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Timestamp microservice">
+  <meta name="author" content="aeronesto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1 class="header">
+      Timestamp Microservice API
+    </h1>
+    <p>
+      API accepts a date string as a parameter, and returns both the Unix timestamp and the natural language form of that date. 
+      Date must be either a unix timestamp or in natural language form, otherwise, it returns null.
+    </p>
+    <h3>API call:</h3>
+    <code>https://aeronestos-timestamp-ms.glitch.me/September%1990,%200490</code>
+    <br>
+    <code>https://aeronestos-timestamp-ms.glitch.me/652406400</code>
+    <h3>API output:</h3>
+    <code>
+      {"unix":652406400,"natural":"September 4, 1990"}
+    </code>
+<div class="center-div">
+    <img src="https://aeronesto.github.io/img/profile.jpg" height="150" alt="Me!" />
+    <p>
+      <a href="mailto:ejimenez.mit@gmail.com">
+        <i class="fa fa-envelope fa-fw"></i>
+      </a>
+      <a href="https://github.com/aeronesto" target="_blank">
+        <i class="fa fa-github fa-fw"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/aeronesto" target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="http://codepen.io/aeronesto" target="_blank">
+        <i class="fa fa-codepen"></i>
+      </a>
+      <a href="https://aerotuck.com/" target="_blank">
+        <i class="fa fa-bicycle"></i>
+      </a></p>Created by Ernesto (aeronesto) Jimenez
+  </div>
+  </div>
+
+</body>
+
+</html>
